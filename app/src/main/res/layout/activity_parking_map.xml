@@ -44,59 +44,78 @@
     <Button
         android:id="@+id/park1"
         android:layout_width="49dp"
-        android:layout_height="66dp"
+        android:layout_height="99dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="64dp"
-        android:background="@drawable/button_state"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        android:text="C-1"
+        android:background="@drawable/border_bg"
         app:layout_constraintStart_toStartOf="@+id/parkingMap"
         app:layout_constraintTop_toTopOf="@+id/parkingMap" />
 
     <Button
         android:id="@+id/park2"
         android:layout_width="49dp"
-        android:layout_height="66dp"
+        android:layout_height="99dp"
         android:layout_marginStart="80dp"
         android:layout_marginTop="64dp"
-        android:background="@drawable/btn_transparent"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        android:text="C-2"
+        android:background="@drawable/border_bg"
         app:layout_constraintStart_toStartOf="@+id/parkingMap"
         app:layout_constraintTop_toTopOf="@+id/parkingMap" />
 
     <Button
         android:id="@+id/park3"
         android:layout_width="49dp"
-        android:layout_height="66dp"
+        android:layout_height="99dp"
         android:layout_marginStart="141dp"
         android:layout_marginTop="64dp"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        android:text="C-3"
+        android:background="@drawable/border_bg"
         app:layout_constraintStart_toStartOf="@+id/parkingMap"
         app:layout_constraintTop_toTopOf="@+id/parkingMap" />
 
     <Button
         android:id="@+id/park4"
         android:layout_width="49dp"
-        android:layout_height="66dp"
+        android:layout_height="99dp"
         android:layout_marginTop="64dp"
         android:layout_marginEnd="156dp"
-        android:background="@drawable/btn_transparent"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        android:text="C-4"
+        android:background="@drawable/border_bg"
         app:layout_constraintEnd_toEndOf="@+id/parkingMap"
         app:layout_constraintTop_toTopOf="@+id/parkingMap" />
 
     <Button
         android:id="@+id/park5"
         android:layout_width="49dp"
-        android:layout_height="66dp"
+        android:layout_height="99dp"
         android:layout_marginTop="64dp"
         android:layout_marginEnd="92dp"
-        android:background="@drawable/btn_transparent"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        android:text="C-5"
+        android:background="@drawable/border_bg"
         app:layout_constraintEnd_toEndOf="@+id/parkingMap"
         app:layout_constraintTop_toTopOf="@+id/parkingMap" />
 
     <Button
         android:id="@+id/park6"
         android:layout_width="49dp"
-        android:layout_height="66dp"
+        android:layout_height="99dp"
         android:layout_marginTop="64dp"
         android:layout_marginEnd="28dp"
-        android:background="@drawable/btn_transparent"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        android:text="C-6"
+        android:background="@drawable/border_bg"
         app:layout_constraintEnd_toEndOf="@+id/parkingMap"
         app:layout_constraintTop_toTopOf="@+id/parkingMap" />
 
@@ -106,7 +125,10 @@
         android:layout_height="56dp"
         android:layout_marginEnd="4dp"
         android:layout_marginBottom="244dp"
-        android:background="@drawable/btn_transparent"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        android:text="Mtr-1"
+        android:background="@drawable/border_bg"
         app:layout_constraintBottom_toBottomOf="@+id/parkingMap"
         app:layout_constraintEnd_toEndOf="@+id/parkingMap" />
 
@@ -116,7 +138,10 @@
         android:layout_height="56dp"
         android:layout_marginEnd="4dp"
         android:layout_marginBottom="168dp"
-        android:background="@drawable/btn_transparent"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        android:text="Mtr-2"
+        android:background="@drawable/border_bg"
         app:layout_constraintBottom_toBottomOf="@+id/parkingMap"
         app:layout_constraintEnd_toEndOf="@+id/parkingMap" />
 
@@ -126,7 +151,10 @@
         android:layout_height="56dp"
         android:layout_marginEnd="4dp"
         android:layout_marginBottom="88dp"
-        android:background="@drawable/btn_transparent"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        android:text="Mtr-3"
+        android:background="@drawable/border_bg"
         app:layout_constraintBottom_toBottomOf="@+id/parkingMap"
         app:layout_constraintEnd_toEndOf="@+id/parkingMap" />
 
@@ -136,7 +164,10 @@
         android:layout_height="56dp"
         android:layout_marginEnd="4dp"
         android:layout_marginBottom="11dp"
-        android:background="@drawable/btn_transparent"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        android:text="Mtr-4"
+        android:background="@drawable/border_bg"
         app:layout_constraintBottom_toBottomOf="@+id/parkingMap"
         app:layout_constraintEnd_toEndOf="@+id/parkingMap" />
 </androidx.constraintlayout.widget.ConstraintLayout>
